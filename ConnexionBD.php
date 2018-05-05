@@ -1,7 +1,7 @@
 <?php
 class ConnexionBD
 {
-    private static $_dbname = 'babel' ;
+    private static $_dbname = 'babeldb' ;
     private static $_host = '127.0.0.1' ;
     private static $_user = 'root';
     private static $_pwd = '';
