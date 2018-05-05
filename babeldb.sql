@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 05, 2018 at 12:50 PM
+-- Generation Time: May 05, 2018 at 04:59 PM
 -- Server version: 5.7.21
 -- PHP Version: 5.6.35
 
@@ -48,7 +48,7 @@ INSERT INTO `appartient_cat` (`ref_livre`, `nom_cat`) VALUES
 (156321481, 'Art'),
 (489120154, 'Art'),
 (887268951, 'Théâtre'),
-(498002541, 'Policier'),
+(302653133, 'Théâtre'),
 (887225941, 'Policier'),
 (504930225, 'Policier'),
 (132659222, 'Informatique'),
