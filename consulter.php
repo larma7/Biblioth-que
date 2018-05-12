@@ -143,6 +143,7 @@ echo "</tr>";
 }
 }
 else {
+	//cas d'execution de la recherche
 $param = "%{$_POST['nom']}%";
 $req1="SELECT * FROM client WHERE nom LIKE :nom ORDER BY nom" ;
 $res2=$db->prepare($req1);
@@ -153,9 +154,10 @@ foreach ($clients as $client)
 echo "<td>".$client->cin."</td>";
 echo "<td>".$client->nom."</td>";
 echo "<td>".$client->prenom."</td>";
-echo "<td>".$client->adresse."</td>";
-echo "<td>".$client->num_tel."</td>";
+ echo "<td>".$client->num_tel."</td>";
 echo "<td>".$client->mail."</td>";
+echo "<td>".$client->adresse."</td>";
+
 
 echo "</tr>";
 }
