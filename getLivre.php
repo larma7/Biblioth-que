@@ -1,7 +1,6 @@
 	<?php
 
 require "ConnexionBD.php";
-//include "selectionLivre.php" ;
 
 $bd=ConnexionBD::getInstance();
 $req="SELECT * FROM livre WHERE reference=:ref " ;
