@@ -91,6 +91,7 @@ table#t01 {
         <td>
             <?php
             include "getLivre.php" ;
+		  include "updateLivre.php" ;
             ?>
 
             <table>
@@ -153,13 +154,9 @@ echo $afficheRes['synopsis'] ;
                     </tr>
             </table>
             </form>
-  </body>
-  <?php
-  include "updateLivre.php" ;
-  ?>
 
   </div>
-
+  </body>
     <hr>
 
     <!-- Footer -->
